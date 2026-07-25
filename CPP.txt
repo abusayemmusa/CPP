@@ -204,6 +204,44 @@ Bitwise Operators
        ├─ nested if           ├─ for                  ├─ goto
        └─ switch              └─ range-based for      └─ return
 ========================================================================================================
+                     💡 Loops in C++
+                            |
+         ---------------------------------------
+
+         |                                     |
+ 🟢 Entry Controlled                   🔴 Exit Controlled
+       Loops                                 Loops
+
+         |                                     |
+         |-- for loop                          |-- do-while loop
+         |-- while loop
+         |-- range-based for loop
+
+========================================================================================================
+                          [ Functions in C++ ]
+         __________________________|__________________________
+
+        |                          |                          |
+ [ Types by Origin ]      [ Core Components ]       [ Passing Methods ]
+
+    |                         |                          |
+    |-- Built-in (Library)    |-- Declaration            |-- Call by Value
+    |-- User-Defined          |-- Definition             |-- Call by Reference
+                              |-- Call
+
+========================================================================================================
+                     Array in C++
+                          │
+         ┌────────────────┼────────────────┐
+         ▼                ▼                ▼
+   Types of Arrays   Operations      Characteristics
+         │                │                │
+         ├─ 1D Array      ├─ Declaration   ├─ Fixed Size
+         ├─ 2D Array      ├─ Init          ├─ Contiguous Memory
+         └─ Multi-D       ├─ Access        └─ Same Data Type
+                          └─ Traversal
+
+========================================================================================================
 ========================================================================================================
 ========================================================================================================
 
