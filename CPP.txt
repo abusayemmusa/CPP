@@ -80,6 +80,17 @@
 ========================================================================================================
 # variable in cpp
 ========================================================================================================
+Rules for C++ Variables
+                                 │
+         ┌───────────────────────┼───────────────────────┐
+         ▼                       ▼                       ▼
+ Allowed Characters       First Character          Restrictions
+         │                       │                       │
+         ├── Uppercase (A-Z)     ├── Alphabet (A-Z)      ├── No white spaces
+         ├── Lowercase (a-z)     └── Underscore (_)      ├── No special symbols
+         ├── Digits (0-9)                                ├── Cannot be a keyword
+         └── Underscore (_)                              └── Case-sensitive
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 [ Int ] ------------> Data Type
    |
 [ age ] -----------> Variable Name
