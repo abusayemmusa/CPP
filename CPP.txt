@@ -152,6 +152,18 @@ Bitwise Operators
  └── >> (Right Shift)
 ========================================================================================================
 6. Miscellaneous / Other Operators
+ ├── sizeof -------- [Returns the size of a data type or variable]
+ ├── ternary (?:) -- [Conditional operator acting as a shortcut for if-else]
+ ├── comma (,) ----- [Separates expressions and executes them sequentially]
+ ├── member -------- [Accesses structure or class members]
+ │    ├── dot (.)
+ │    └── arrow (->)
+ ├── pointer ------- [Handles memory addresses and references]
+ │    ├── address-of (&)
+ │    └── dereference (*)
+ └── type ---------- [Manages type checking and conversions]
+      ├── typeid
+      └── cast (static_cast, dynamic_cast)
 ========================================================================================================
 ========================================================================================================
 
