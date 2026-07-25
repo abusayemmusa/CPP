@@ -120,6 +120,18 @@ Arithmetic Operators
                                     └─ >>= (Right Shift Assignment)
 ========================================================================================================
 3. Relational / Comparison Operators
+├── Equality Operators
+│   ├── ==  (Equal to)
+│   └── !=  (Not equal to)
+│
+├── Value Comparisons
+│   ├── <   (Less than)
+│   └── >   (Greater than)
+│
+└── Boundary Comparisons
+    ├── <=  (Less than or equal to)
+    └── >=  (Greater than or equal to)
+
 ========================================================================================================
 4. Logical Operators
 ========================================================================================================
