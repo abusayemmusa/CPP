@@ -27,7 +27,6 @@ int main() {
 #include <iostream>
 using namespace std;
 
-
 int main() {
     int age = 20;
     float height = 5.9;
