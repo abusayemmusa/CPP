@@ -48,5 +48,17 @@ cout (Output)
 cerr (Error)
 clog (Log)
 ========================================================================================================
+#include <iostream>
+using namespace std;
 
+int main() {
+    cout << "Enter two numbers: ";
+    int a;
+    cin >> a;
+    cout << "Enter another number: ";
+    int b;
+    cin >> b;
+    cout << "The sum of " << a << " and " << b << " is: " << (a + b) << endl;
+    return 0;
+}
 ========================================================================================================
