@@ -14,6 +14,28 @@ int main(){
 ========================================================================================================
 # Simple Calculator
 ========================================================================================================
+#include <iostream>
+#include<string>
+using namespace std;
 
+int main(){
+        string input;
+        cout<<"Please Enter Add, Sub, Mul Div: ";
+        cin>> input;
+        int first, secend;
+        cout <<"enter your 1st number: ";
+        cin>>first;
+        cout <<"enter your 2nd number: ";
+        cin>>secend;
+        if (input == "Add"){
+            cout<< "Addition is " << first + secend;
+        }else if(input == "Sub"){
+            cout<< "Subtraction is "<< first - secend;
+        }else if(input == "Mul"){
+            cout<<"Multiplication is "<< first * secend;
+        }else if(input == "Div"){
+            cout<<"Division is "<< first / secend;
+        }
+}
 ========================================================================================================
 ========================================================================================================
