@@ -1,0 +1,868 @@
+C++ — MASTER ROADMAP
+====================
+
+1. C++ BASICS
+-------------
+- Introduction to C++
+- C++ Program Structure
+- Compiler
+- Source Code
+- Header Files
+- main()
+- Comments
+- Tokens
+- Keywords
+- Identifiers
+- Literals
+- Variables
+- Constants
+- Data Types
+- Type Conversion
+- Input / Output
+- cin
+- cout
+- cerr
+- clog
+
+
+2. OPERATORS
+------------
+- Arithmetic Operators
+- Relational Operators
+- Logical Operators
+- Assignment Operators
+- Increment / Decrement
+- Bitwise Operators
+- Conditional Operator
+- sizeof
+- Scope Resolution ::
+- Address-of &
+- Dereference *
+- Member Access
+- Pointer-to-Member Operators
+
+
+3. CONTROL FLOW
+---------------
+- if
+- if-else
+- else-if
+- Nested if
+- switch
+- for
+- while
+- do-while
+- break
+- continue
+- goto
+- Nested Loops
+
+
+4. FUNCTIONS
+------------
+- Function Declaration
+- Function Definition
+- Function Call
+- Parameters
+- Arguments
+- Return Values
+- Default Arguments
+- Inline Functions
+- Function Overloading
+- Recursion
+- Call by Value
+- Call by Reference
+- Return by Reference
+- Lambda Functions
+
+
+5. ARRAYS
+---------
+- 1D Array
+- 2D Array
+- Multidimensional Array
+- Array Traversal
+- Array Searching
+- Array Sorting
+- Character Arrays
+- Array of Objects
+
+
+6. STRINGS
+----------
+- C-Style Strings
+- std::string
+- String Input
+- String Concatenation
+- String Comparison
+- String Searching
+- String Modification
+- String Traversal
+- String Algorithms
+
+
+7. POINTERS
+-----------
+- Pointer Basics
+- Address
+- Dereferencing
+- Pointer Arithmetic
+- Pointer to Pointer
+- Array Pointers
+- Function Pointers
+- Pointer to Object
+- this Pointer
+- nullptr
+- Smart Pointers
+
+
+8. REFERENCES
+-------------
+- Reference Variables
+- Reference Parameters
+- Return by Reference
+- const Reference
+- Rvalue Reference
+- Move Semantics
+
+
+9. DYNAMIC MEMORY
+-----------------
+- new
+- delete
+- new[]
+- delete[]
+- Dynamic Arrays
+- Dynamic Objects
+- Memory Leaks
+- Dangling Pointers
+- RAII
+- unique_ptr
+- shared_ptr
+- weak_ptr
+
+
+10. STRUCTURES
+--------------
+- struct
+- Structure Members
+- Structure Objects
+- Array of Structures
+- Nested Structures
+- Structure vs Class
+
+
+11. ENUM
+--------
+- enum
+- enum class
+- Enumerators
+- Strongly Typed Enumeration
+
+
+12. UNION
+---------
+- union
+- Union Members
+- Memory Sharing
+- Union vs Structure
+- Union vs Class
+
+
+13. OOP FUNDAMENTALS
+--------------------
+- Object-Oriented Programming
+- Class
+- Object
+- Data Members
+- Member Functions
+- Access Specifiers
+- private
+- public
+- protected
+- Encapsulation
+- Abstraction
+- Inheritance
+- Polymorphism
+
+
+14. CLASS
+---------
+- Class Definition
+- Class Objects
+- Constructors
+- Destructors
+- Default Constructor
+- Parameterized Constructor
+- Copy Constructor
+- Move Constructor
+- Constructor Overloading
+- Destructor
+- this Pointer
+- Static Members
+- Const Members
+- Friend Functions
+- Friend Classes
+
+
+15. ENCAPSULATION
+-----------------
+- Data Hiding
+- Access Control
+- Getters
+- Setters
+- Private Data
+- Public Interface
+
+
+16. INHERITANCE
+--------------
+- Single Inheritance
+- Multiple Inheritance
+- Multilevel Inheritance
+- Hierarchical Inheritance
+- Hybrid Inheritance
+- Base Class
+- Derived Class
+- protected Members
+- Constructor in Inheritance
+- Destructor in Inheritance
+- Virtual Base Class
+
+
+17. POLYMORPHISM
+---------------
+- Compile-Time Polymorphism
+- Function Overloading
+- Operator Overloading
+- Run-Time Polymorphism
+- Virtual Functions
+- Function Overriding
+- Pure Virtual Function
+- Abstract Class
+- Virtual Destructor
+
+
+18. OPERATOR OVERLOADING
+-----------------------
+- Unary Operator
+- Binary Operator
+- Arithmetic Operators
+- Relational Operators
+- Assignment Operators
+- ++ / --
+- << / >>
+- [] Operator
+- () Operator
+- -> Operator
+
+
+19. TEMPLATES
+------------
+- Function Templates
+- Class Templates
+- Template Parameters
+- Multiple Template Parameters
+- Template Specialization
+- Variadic Templates
+- Generic Programming
+
+
+20. STL
+-------
+STANDARD TEMPLATE LIBRARY
+
+Containers:
+    - vector
+    - array
+    - deque
+    - list
+    - forward_list
+    - stack
+    - queue
+    - priority_queue
+    - set
+    - multiset
+    - map
+    - multimap
+    - unordered_set
+    - unordered_multiset
+    - unordered_map
+    - unordered_multimap
+
+Iterators:
+    - begin()
+    - end()
+    - rbegin()
+    - rend()
+    - cbegin()
+    - cend()
+
+Algorithms:
+    - sort()
+    - reverse()
+    - find()
+    - binary_search()
+    - lower_bound()
+    - upper_bound()
+    - min()
+    - max()
+    - min_element()
+    - max_element()
+    - count()
+    - accumulate()
+    - swap()
+    - merge()
+    - unique()
+    - rotate()
+    - next_permutation()
+
+
+21. STL UTILITIES
+-----------------
+- pair
+- tuple
+- optional
+- variant
+- any
+- string_view
+- bitset
+
+
+22. ITERATORS & RANGES
+---------------------
+- Input Iterator
+- Output Iterator
+- Forward Iterator
+- Bidirectional Iterator
+- Random Access Iterator
+- Iterator Arithmetic
+- Range-Based for
+- C++20 Ranges
+
+
+23. EXCEPTION HANDLING
+---------------------
+- try
+- catch
+- throw
+- Multiple catch Blocks
+- Custom Exceptions
+- std::exception
+- noexcept
+
+
+24. FILE HANDLING
+-----------------
+- ifstream
+- ofstream
+- fstream
+- Open File
+- Close File
+- Read File
+- Write File
+- Binary Files
+- File Position
+- Serialization Basics
+
+
+25. NAMESPACES
+-------------
+- namespace
+- using namespace
+- Namespace Alias
+- Nested Namespace
+- std
+
+
+26. PREPROCESSOR
+----------------
+- #include
+- #define
+- #undef
+- #ifdef
+- #ifndef
+- #if
+- #elif
+- #else
+- #endif
+- Macros
+- Header Guards
+
+
+27. STORAGE & LINKAGE
+---------------------
+- auto
+- static
+- register
+- extern
+- thread_local
+- Scope
+- Lifetime
+- Linkage
+
+
+28. CONST & TYPE SYSTEM
+----------------------
+- const
+- constexpr
+- consteval
+- constinit
+- volatile
+- decltype
+- auto Type Deduction
+- static_cast
+- dynamic_cast
+- const_cast
+- reinterpret_cast
+
+
+29. MODERN C++
+-------------
+C++11:
+    - auto
+    - nullptr
+    - range-based for
+    - lambda
+    - smart pointers
+    - move semantics
+
+C++14:
+    - Generic Lambdas
+    - Binary Literals
+    - Variable Templates
+
+C++17:
+    - structured bindings
+    - if constexpr
+    - std::optional
+    - std::variant
+    - std::any
+    - filesystem
+
+C++20:
+    - concepts
+    - ranges
+    - coroutines
+    - modules
+    - three-way comparison
+    - consteval
+    - std::span
+
+C++23:
+    - modern library additions
+    - ranges improvements
+    - std::expected
+    - multidimensional views
+    - additional language/library features
+
+
+30. MOVE SEMANTICS
+------------------
+- Lvalue
+- Rvalue
+- Rvalue Reference
+- std::move
+- Move Constructor
+- Move Assignment
+- Copy Constructor
+- Copy Assignment
+- Rule of 3
+- Rule of 5
+- Rule of 0
+
+
+31. LAMBDA EXPRESSIONS
+----------------------
+- Lambda Syntax
+- Capture by Value
+- Capture by Reference
+- Mixed Capture
+- Generic Lambda
+- Mutable Lambda
+- Lambda with STL Algorithms
+
+
+32. FUNCTIONAL PROGRAMMING
+--------------------------
+- Lambda
+- std::function
+- Function Objects
+- bind
+- Predicate
+- Higher-Order Functions
+- Algorithms
+
+
+33. CONCURRENCY
+--------------
+- Thread
+- std::thread
+- Mutex
+- lock_guard
+- unique_lock
+- condition_variable
+- Future
+- Promise
+- async
+- Atomic Variables
+- Semaphore
+- Latch
+- Barrier
+
+
+34. DATA STRUCTURES
+-------------------
+- Array
+- Linked List
+- Doubly Linked List
+- Circular Linked List
+- Stack
+- Queue
+- Deque
+- Hash Table
+- Heap
+- Priority Queue
+- Tree
+- BST
+- AVL Tree
+- Trie
+- Graph
+- Disjoint Set Union
+
+
+35. ALGORITHMS
+-------------
+SEARCHING:
+    - Linear Search
+    - Binary Search
+
+SORTING:
+    - Bubble Sort
+    - Selection Sort
+    - Insertion Sort
+    - Merge Sort
+    - Quick Sort
+    - Heap Sort
+    - Counting Sort
+    - Radix Sort
+
+GRAPH:
+    - BFS
+    - DFS
+    - Dijkstra
+    - Bellman-Ford
+    - Floyd-Warshall
+    - Prim
+    - Kruskal
+    - Topological Sort
+    - DSU
+
+
+36. PROBLEM-SOLVING PATTERNS
+----------------------------
+- Brute Force
+- Two Pointers
+- Sliding Window
+- Prefix Sum
+- Difference Array
+- Binary Search
+- Greedy
+- Divide & Conquer
+- Backtracking
+- Dynamic Programming
+- Bit Manipulation
+- Recursion
+- Hashing
+- Monotonic Stack
+- Monotonic Queue
+
+
+37. COMPETITIVE PROGRAMMING
+---------------------------
+- C++ STL
+- Fast I/O
+- Number Theory
+- Combinatorics
+- Graph Algorithms
+- Tree Algorithms
+- Dynamic Programming
+- Greedy
+- Geometry
+- String Algorithms
+- Bitmasking
+- Advanced Data Structures
+
+
+38. DEBUGGING
+-------------
+- Compiler Errors
+- Runtime Errors
+- Logic Errors
+- Segmentation Fault
+- Memory Errors
+- Debugger
+- Assertions
+- Logging
+- Sanitizers
+
+
+39. TESTING
+-----------
+- Unit Testing
+- Integration Testing
+- Test Cases
+- Assertions
+- GoogleTest
+- Debug Builds
+- Release Builds
+
+
+40. C++ BUILD SYSTEM
+--------------------
+- Compilation
+- Linking
+- Object Files
+- Static Libraries
+- Dynamic Libraries
+- Make
+- CMake
+- Build Configuration
+
+
+41. SOFTWARE ENGINEERING
+------------------------
+- Git
+- GitHub
+- CMake
+- Testing
+- Documentation
+- Design Patterns
+- SOLID Principles
+- Clean Code
+- Code Review
+
+
+42. DESIGN PATTERNS
+-------------------
+CREATIONAL:
+    - Singleton
+    - Factory
+    - Builder
+    - Prototype
+
+STRUCTURAL:
+    - Adapter
+    - Decorator
+    - Facade
+    - Proxy
+    - Composite
+
+BEHAVIORAL:
+    - Observer
+    - Strategy
+    - Command
+    - State
+    - Iterator
+
+
+43. C++ APPLICATION AREAS
+-------------------------
+- Competitive Programming
+- DSA
+- System Programming
+- Game Development
+- Desktop Applications
+- Embedded Systems
+- Robotics
+- IoT
+- Operating Systems
+- Networking
+- Databases
+- High-Performance Computing
+- Computer Vision
+- AI/ML
+- Simulation
+- Finance
+
+
+44. C++ + AI/ML
+---------------
+C++
+ ↓
+DSA
+ ↓
+Linear Algebra
+ ↓
+Algorithms
+ ↓
+Python
+ ↓
+NumPy/Pandas
+ ↓
+Machine Learning
+ ↓
+Deep Learning
+
+C++ Applications:
+    - High-performance inference
+    - Computer Vision
+    - Robotics
+    - CUDA
+    - ONNX Runtime
+    - TensorRT
+
+
+45. C++ + ROBOTICS
+------------------
+C++
+ ↓
+OOP
+ ↓
+DSA
+ ↓
+Algorithms
+ ↓
+Linux
+ ↓
+Embedded Systems
+ ↓
+Sensors
+ ↓
+Control Systems
+ ↓
+ROS / ROS 2
+ ↓
+Robotics
+ ↓
+AI + Robotics
+
+
+46. BEGINNER PROJECTS
+---------------------
+1. Calculator
+2. Number Guessing Game
+3. Unit Converter
+4. Student Grade Calculator
+5. Simple ATM
+6. To-Do List
+7. Contact Book
+8. Quiz Game
+9. Bank Account System
+10. Temperature Converter
+
+
+47. INTERMEDIATE PROJECTS
+------------------------
+1. Library Management System
+2. Student Management System
+3. Banking System
+4. Inventory Management System
+5. Hospital Management System
+6. Employee Management System
+7. File-Based Database
+8. Tic-Tac-Toe
+9. Snake Game
+10. Expense Tracker
+
+
+48. ADVANCED PROJECTS
+---------------------
+1. Mini Database
+2. Compiler Components
+3. File System
+4. HTTP Server
+5. Chat Application
+6. Multithreaded Server
+7. Game Engine
+8. Search Engine
+9. Network Application
+10. Operating-System Components
+
+
+49. C++ PRACTICE ORDER
+---------------------
+Syntax
+ ↓
+Variables & Data Types
+ ↓
+Operators
+ ↓
+Conditions
+ ↓
+Loops
+ ↓
+Functions
+ ↓
+Arrays
+ ↓
+Strings
+ ↓
+Pointers
+ ↓
+References
+ ↓
+Structures
+ ↓
+OOP
+ ↓
+Inheritance
+ ↓
+Polymorphism
+ ↓
+Templates
+ ↓
+STL
+ ↓
+DSA
+ ↓
+Algorithms
+ ↓
+Competitive Programming
+ ↓
+Advanced C++
+
+
+50. DAILY PRACTICE
+------------------
+BEGINNER:
+    - 3–5 basic problems/day
+
+INTERMEDIATE:
+    - 2–4 DSA problems/day
+
+ADVANCED:
+    - 1–3 difficult problems/day
+
+ALWAYS:
+    - Write code
+    - Debug code
+    - Analyze complexity
+    - Read other solutions
+    - Rewrite inefficient solutions
+
+
+51. C++ 80/20
+------------
+MOST IMPORTANT:
+
+1. Syntax
+2. Variables & Data Types
+3. if/else
+4. Loops
+5. Functions
+6. Arrays
+7. Strings
+8. Pointers & References
+9. Classes & Objects
+10. Inheritance
+11. Polymorphism
+12. Templates
+13. STL
+14. Recursion
+15. DSA
+16. Algorithms
+17. Problem Solving
+18. Git/GitHub
+19. CMake
+20. Modern C++
